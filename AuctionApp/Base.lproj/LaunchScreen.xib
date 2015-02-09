@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Copyright (c) 2014 Life Plus Dev. All rights reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="8ie-xW-0ye">
+                    <rect key="frame" x="20" y="626" width="336" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="bkh-uK-dpq"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="TimesNewRomanPS-ItalicMT" family="Times New Roman" pointSize="15"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="habitat_logo" translatesAutoresizingMaskIntoConstraints="NO" id="5Nd-2r-a0t">
+                    <rect key="frame" x="68" y="95" width="240" height="203"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="5Nd-2r-a0t" secondAttribute="height" multiplier="240:203" id="nYM-1O-La0"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TAM-Logo-white" translatesAutoresizingMaskIntoConstraints="NO" id="VhH-Q6-qhq">
+                    <rect key="frame" x="52" y="366" width="273" height="175"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="VhH-Q6-qhq" secondAttribute="height" multiplier="39:25" id="Dbz-pJ-x9W"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="0.32027304290000003" green="0.066482438160000004" blue="0.053599544569999998" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="VhH-Q6-qhq" secondAttribute="trailing" constant="50" id="1fZ-yA-1jh"/>
+                <constraint firstAttribute="trailing" secondItem="5Nd-2r-a0t" secondAttribute="trailing" constant="67" id="8Ob-bn-gWj"/>
+                <constraint firstAttribute="bottom" secondItem="8ie-xW-0ye" secondAttribute="bottom" constant="20" id="Kzo-t9-V3l"/>
+                <constraint firstItem="VhH-Q6-qhq" firstAttribute="top" secondItem="5Nd-2r-a0t" secondAttribute="bottom" constant="68" id="M8V-vz-8bL"/>
+                <constraint firstItem="8ie-xW-0ye" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" symbolic="YES" id="MfP-vx-nX0"/>
+                <constraint firstItem="8ie-xW-0ye" firstAttribute="top" secondItem="VhH-Q6-qhq" secondAttribute="bottom" constant="85" id="PNM-yY-ZnS"/>
+                <constraint firstAttribute="centerX" secondItem="5Nd-2r-a0t" secondAttribute="centerX" constant="-0.5" id="Qt7-lo-NKb"/>
+                <constraint firstItem="5Nd-2r-a0t" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="68" id="ROM-0c-Bp7"/>
+                <constraint firstItem="VhH-Q6-qhq" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="52" id="Z8y-Fv-qc9"/>
+                <constraint firstAttribute="centerX" secondItem="8ie-xW-0ye" secondAttribute="centerX" id="ZEH-qu-HZ9"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <point key="canvasLocation" x="547.5" y="454.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="TAM-Logo-white" width="500" height="350"/>
+        <image name="habitat_logo" width="738" height="656"/>
+    </resources>
+</document>
