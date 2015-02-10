@@ -31,14 +31,14 @@
 		63FF2B9E1A2644AE00646D6B /* BiddingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FF2B9D1A2644AE00646D6B /* BiddingViewController.swift */; };
 		63FF2BA01A26463000646D6B /* BlurTransitionSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FF2B9F1A26463000646D6B /* BlurTransitionSegue.swift */; };
 		98C19A038ECBB64AEDF63FF0 /* libPods-AuctionApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1780CD31578F9B311C15C22C /* libPods-AuctionApp.a */; };
-		CA8740E71A8866FB00FDE0F5 /* 6size.gif in Resources */ = {isa = PBXBuildFile; fileRef = CA8740E61A8866FB00FDE0F5 /* 6size.gif */; };
+		CA1425711A89EB1300C6113B /* ICETutorialPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA14256F1A89EB1300C6113B /* ICETutorialPage.swift */; };
+		CA1425721A89EB1300C6113B /* ICETutorialController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1425701A89EB1300C6113B /* ICETutorialController.swift */; };
 		CA8740E91A886BBF00FDE0F5 /* long1.gif in Resources */ = {isa = PBXBuildFile; fileRef = CA8740E81A886BBF00FDE0F5 /* long1.gif */; };
 		CA8741591A887D4300FDE0F5 /* SwiftSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8741581A887D4300FDE0F5 /* SwiftSpinner.swift */; };
 		CA87415B1A887F1B00FDE0F5 /* JSSAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA87415A1A887F1B00FDE0F5 /* JSSAlertView.swift */; };
 		CA87415D1A88835A00FDE0F5 /* SweetAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA87415C1A88835A00FDE0F5 /* SweetAlert.swift */; };
 		CAA6D7991A803B55000F0FF3 /* SCLAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA6D7981A803B55000F0FF3 /* SCLAlertView.swift */; };
 		CAA6D79B1A80A1CD000F0FF3 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA6D79A1A80A1CD000F0FF3 /* AboutViewController.swift */; };
-		CAB2CC681A8941DE00CB8557 /* railway.gif in Resources */ = {isa = PBXBuildFile; fileRef = CAB2CC671A8941DE00CB8557 /* railway.gif */; };
 		CAB876611A76C77000B19637 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAB876601A76C77000B19637 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -87,14 +87,14 @@
 		63FF2B9F1A26463000646D6B /* BlurTransitionSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurTransitionSegue.swift; sourceTree = "<group>"; };
 		6E24F8C622DA76E0DBBC3953 /* Pods-AuctionApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AuctionApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-AuctionApp/Pods-AuctionApp.release.xcconfig"; sourceTree = "<group>"; };
 		82D9E0BD4D3155B0829B9C15 /* Pods-AuctionApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AuctionApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AuctionApp/Pods-AuctionApp.debug.xcconfig"; sourceTree = "<group>"; };
-		CA8740E61A8866FB00FDE0F5 /* 6size.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 6size.gif; sourceTree = "<group>"; };
+		CA14256F1A89EB1300C6113B /* ICETutorialPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ICETutorialPage.swift; sourceTree = "<group>"; };
+		CA1425701A89EB1300C6113B /* ICETutorialController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ICETutorialController.swift; sourceTree = "<group>"; };
 		CA8740E81A886BBF00FDE0F5 /* long1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = long1.gif; sourceTree = "<group>"; };
 		CA8741581A887D4300FDE0F5 /* SwiftSpinner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftSpinner.swift; sourceTree = "<group>"; };
 		CA87415A1A887F1B00FDE0F5 /* JSSAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSSAlertView.swift; sourceTree = "<group>"; };
 		CA87415C1A88835A00FDE0F5 /* SweetAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SweetAlert.swift; sourceTree = "<group>"; };
 		CAA6D7981A803B55000F0FF3 /* SCLAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCLAlertView.swift; sourceTree = "<group>"; };
 		CAA6D79A1A80A1CD000F0FF3 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
-		CAB2CC671A8941DE00CB8557 /* railway.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = railway.gif; sourceTree = "<group>"; };
 		CAB876601A76C77000B19637 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -166,10 +166,9 @@
 				63EA13041A1ABB27002BDFDF /* Item List View */,
 				63EA13031A1ABB23002BDFDF /* Login View */,
 				634C33641A1A7FB90002E9AD /* Models */,
+				CAB2CC741A89DA8600CB8557 /* Intro */,
 				637EEC551A1A6D250091C60B /* AppDelegate.swift */,
-				CAB2CC671A8941DE00CB8557 /* railway.gif */,
 				CA8740E81A886BBF00FDE0F5 /* long1.gif */,
-				CA8740E61A8866FB00FDE0F5 /* 6size.gif */,
 				CAA6D79A1A80A1CD000F0FF3 /* AboutViewController.swift */,
 				CAB876601A76C77000B19637 /* Main.storyboard */,
 				637EEC5C1A1A6D250091C60B /* Images.xcassets */,
@@ -271,6 +270,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		CAB2CC741A89DA8600CB8557 /* Intro */ = {
+			isa = PBXGroup;
+			children = (
+				CA14256F1A89EB1300C6113B /* ICETutorialPage.swift */,
+				CA1425701A89EB1300C6113B /* ICETutorialController.swift */,
+			);
+			name = Intro;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -340,11 +348,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAB2CC681A8941DE00CB8557 /* railway.gif in Resources */,
 				CAB876611A76C77000B19637 /* Main.storyboard in Resources */,
 				637EEC601A1A6D250091C60B /* LaunchScreen.xib in Resources */,
 				CA8740E91A886BBF00FDE0F5 /* long1.gif in Resources */,
-				CA8740E71A8866FB00FDE0F5 /* 6size.gif in Resources */,
 				637EEC5D1A1A6D250091C60B /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -391,6 +397,7 @@
 			files = (
 				63EE70431A1AC1B500B3EE74 /* DataManager.swift in Sources */,
 				63FF2B9B1A26442100646D6B /* Constants.swift in Sources */,
+				CA1425711A89EB1300C6113B /* ICETutorialPage.swift in Sources */,
 				63FF2B9E1A2644AE00646D6B /* BiddingViewController.swift in Sources */,
 				634C33661A1A7FDB0002E9AD /* Item.swift in Sources */,
 				63FF2BA01A26463000646D6B /* BlurTransitionSegue.swift in Sources */,
@@ -401,6 +408,7 @@
 				63EA13071A1ABCBE002BDFDF /* LoginViewController.swift in Sources */,
 				634C33681A1A7FE30002E9AD /* Bid.swift in Sources */,
 				CA87415D1A88835A00FDE0F5 /* SweetAlert.swift in Sources */,
+				CA1425721A89EB1300C6113B /* ICETutorialController.swift in Sources */,
 				63EA13091A1ABCD1002BDFDF /* ItemListViewController.swift in Sources */,
 				CAA6D7991A803B55000F0FF3 /* SCLAlertView.swift in Sources */,
 				6372258D1A1CEE46003EC016 /* ItemTableViewCell.swift in Sources */,

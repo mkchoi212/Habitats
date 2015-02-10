@@ -18,6 +18,37 @@ class AppDelegate: UIResponder, UIApplicationDelegate{
     
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         
+        //ICETUTORIAL
+        // Init the pages texts, and pictures.
+        var layer1: ICETutorialPage = ICETutorialPage(title: "Hello", subTitle: "Welcome to Habitats", pictureName: "logopic", duration: 3.0)
+        var layer2: ICETutorialPage = ICETutorialPage(title: "Auctions", subTitle: "Bid on your favorite shack", pictureName: "shacks", duration: 3.0)
+        var layer3: ICETutorialPage = ICETutorialPage(title: "Experience", subTitle: "Get an experience of your lifetime through the event Shackathon", pictureName: "comeshack", duration: 3.0)
+        var layer4: ICETutorialPage = ICETutorialPage(title: "Community", subTitle: "Embrace the sense of community through various events hosted by Habitat", pictureName: "grouppic", duration: 3.0)
+        var layer5: ICETutorialPage = ICETutorialPage(title: "Enjoy", subTitle: "Thanks for coming and happy bidding", pictureName: "love", duration: 3.0)
+    
+        // Set the common style for SubTitles and Description (can be overrided on each page).
+        var titleStyle: ICETutorialLabelStyle = ICETutorialLabelStyle()
+        titleStyle.font = UIFont(name: "Helvetica-Bold", size: 17.0)
+        titleStyle.color = UIColor.whiteColor()
+        titleStyle.linesNumber = 1
+        titleStyle.offsset = 180
+        
+        var subStyle: ICETutorialLabelStyle = ICETutorialLabelStyle()
+        subStyle.font = UIFont(name: "Helvetica", size: 15.0)
+        subStyle.color = UIColor.whiteColor()
+        subStyle.linesNumber = 1
+        subStyle.offsset = 150
+        
+        
+        var listPages: [ICETutorialPage] = [layer1, layer2, layer3, layer4, layer5]
+        
+        var controller: ICETutorialController = ICETutorialController(pages: listPages)
+        controller.commonPageTitleStyle = titleStyle
+        controller.commonPageSubTitleStyle = subStyle
+        controller.startScrolling()
+        
+
+        
         //LOCAL NOTIFICATION
         application.registerUserNotificationSettings(UIUserNotificationSettings(forTypes: UIUserNotificationType.Sound | UIUserNotificationType.Alert |
             UIUserNotificationType.Badge, categories: nil))
@@ -27,15 +58,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate{
         PFAnalytics.trackAppOpenedWithLaunchOptionsInBackground(launchOptions, block: nil)
         
 
-        
-        
+
         var currentUser = PFUser.currentUser()
         if currentUser != nil {
             let itemVC = UIStoryboard(name: "Main", bundle: NSBundle.mainBundle()).instantiateInitialViewController() as? UINavigationController
             window?.rootViewController=itemVC
         } else {
             //Prompt User to Login
-            let loginVC = UIStoryboard(name: "Main", bundle: NSBundle.mainBundle()).instantiateViewControllerWithIdentifier("LoginViewController") as LoginViewController
+            let loginVC = controller
             window?.rootViewController=loginVC
         }
         

@@ -14,22 +14,26 @@
 		<string>https://github.com/HubSpot/BidHub-iOS.git</string>
 		<key>B83A57A7E815AE382BFB5508DE55EDECC6408857</key>
 		<string>git.hubteam.com:weoconnell/AuctionApp.git</string>
+		<key>CF09E27ADAA6931A0DB02260BA5ED7AB5630C564</key>
+		<string>https://github.com/mkchoi212/Habitats-master.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>AuctionApp.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>87AD937E3DB54735C3CA04EEBC2F0D2FF481920D</key>
-		<string>..</string>
+		<string>../../BidHub-iOS</string>
 		<key>B83A57A7E815AE382BFB5508DE55EDECC6408857</key>
 		<string>../../AuctionApp</string>
+		<key>CF09E27ADAA6931A0DB02260BA5ED7AB5630C564</key>
+		<string>..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/HubSpot/BidHub-iOS.git</string>
+	<string>https://github.com/mkchoi212/Habitats-master.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>87AD937E3DB54735C3CA04EEBC2F0D2FF481920D</string>
+	<string>CF09E27ADAA6931A0DB02260BA5ED7AB5630C564</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -47,6 +51,14 @@
 			<string>87AD937E3DB54735C3CA04EEBC2F0D2FF481920D</string>
 			<key>IDESourceControlWCCName</key>
 			<string>BidHub-iOS</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CF09E27ADAA6931A0DB02260BA5ED7AB5630C564</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Habitats-master</string>
 		</dict>
 	</array>
 </dict>

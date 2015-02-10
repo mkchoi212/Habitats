@@ -28,7 +28,7 @@ class LoginViewController: UIViewController, UITextFieldDelegate, UIWebViewDeleg
         webViewBG = UIWebView(frame: da_view.frame)
         webViewBG.delegate = self
         webViewBG.userInteractionEnabled = false
-        webViewBG.contentMode = UIViewContentMode.ScaleAspectFill
+        webViewBG.contentMode = UIViewContentMode.ScaleToFill
         webViewBG.backgroundColor = UIColor .blackColor()
         webViewBG.alpha = 0.0
         webViewBG.loadData(gif, MIMEType: "image/gif", textEncodingName: nil, baseURL: nil)
