@@ -11,4 +11,4 @@ Users have the ability to **place bids** on the app and **monitor** the status o
 
 Once they have been **outbid, they will get a noficiation** letting them know.
 
-Backend is hosted on Parse.
+Backend is hosted on **Parse** and is written in **Swift 1.1**.
